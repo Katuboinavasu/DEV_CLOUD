@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f9ff;
+}
+
+.navbar {
+  background: #0d6efd;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 100, 200, 0.5), rgba(0, 100, 200, 0.5)),
+    url("https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=80");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+}
+
+.hero-content {
+  width: 550px;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero p {
+  margin: 20px 0;
+  line-height: 1.7;
+}
+
+.hero button {
+  padding: 15px 35px;
+  border: none;
+  background: white;
+  color: #0d6efd;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.services,
+.doctors,
+.contact {
+  padding: 70px 8%;
+  text-align: center;
+}
+
+.services h2,
+.doctors h2,
+.contact h2 {
+  margin-bottom: 40px;
+  color: #0d6efd;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.12);
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+.contact p {
+  margin: 15px;
+  font-size: 18px;
+}
+
+footer {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
